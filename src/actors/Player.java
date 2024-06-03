@@ -5,5 +5,8 @@ public class Player extends Actor{
         super(health, damage);
     }
 
-
+    @Override
+    public String toString() {
+        return "Player";
+    }
 }
